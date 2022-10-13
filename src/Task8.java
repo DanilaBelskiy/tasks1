@@ -4,6 +4,7 @@ public class Task8 {
         System.out.println(answer);
     }
 
+    // Returns the maximum possible integer length of the third edge of a triangle
     public static int nextEdge(int a, int b) {
         return a + b - 1 ;
     }

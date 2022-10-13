@@ -4,6 +4,7 @@ public class Task2 {
         System.out.println(answer);
     }
 
+    // Returns the area of a triangle given its base and height
     public static double triArea(double base, double height) {
         return (base * height) / 2;
     }

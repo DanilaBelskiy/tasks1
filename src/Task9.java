@@ -5,6 +5,7 @@ public class Task9 {
         System.out.println(answer);
     }
 
+    // Returns the sum of cubes of array elements
     public static int sumOfCubes(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {

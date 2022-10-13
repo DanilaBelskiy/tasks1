@@ -4,6 +4,11 @@ public class Task5 {
         System.out.println(answer);
     }
 
+    // Returns "added" if      a + b = N
+    // Returns "subtracted" if a - b = N
+    // Returns "multiplied" if a * b = N
+    // Returns "divided" if    a / b = N
+    // Else returns "none"
     public static String operation(double N, int a, int b) {
         if (a + b == N) {return "added";}
         if (a - b == N) {return "subtracted";}
